@@ -24,6 +24,7 @@ if(move_y > 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDParent : 2F1D01FE
 	/// @DnDArgument : "imageind_relative" "1"
 	/// @DnDArgument : "spriteind" "spr_player_idle"
+	/// @DnDSaveInfo : "spriteind" "spr_player_idle"
 	sprite_index = spr_player_idle;
 	image_index += 0;}
 
@@ -54,7 +55,7 @@ var l198DAC4A_0 = instance_place(0, y + 2, [collission_tilemap]);if ((l198DAC4A
 		/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 		/// @DnDVersion : 1
 		/// @DnDHash : 702152C3
-		/// @DnDComment : reset the image x scale back to $(13_10)normal. (absolute value to$(13_10)make it positive to the $(13_10)right no matter what) 
+		/// @DnDComment : reset the image x scale back to $(13_10)normal. (absolute value to$(13_10)make it positive to the $(13_10)right no matter what)
 		/// @DnDParent : 55BD7F60
 		/// @DnDArgument : "xscale" "abs(image_xscale)"
 		/// @DnDArgument : "yscale" "image_yscale "
